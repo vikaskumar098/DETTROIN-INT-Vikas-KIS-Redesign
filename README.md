@@ -1,99 +1,173 @@
-# Krishna International School — Website Redesign
+# Krishna International School – Website Redesign
 
-A premium, modern, fully responsive redesign of kisaligarh.com, built as a
-frontend internship project. Same purpose, branding, and content as the
-original school website — reimagined with a contemporary design system,
-component-driven architecture, and production-grade code quality.
+A modern and responsive redesign of the **Krishna International School** website developed as part of the **Dettroin Full Stack Developer Internship – Round 1 Technical Assessment**.
 
-**Live original for reference:** https://kisaligarh.com/
+The objective of this project was to redesign the existing website with an improved UI/UX, responsive layout, modern design, clean code structure, and better user experience while maintaining the original purpose and essential content.
 
-## Tech Stack
+---
 
-- **React 19** — UI library
-- **Vite** — build tool & dev server
-- **Tailwind CSS 3** — utility-first styling with a custom design token system
-- **React Router DOM 7** — client-side routing
-- **Framer Motion** — scroll reveals, page transitions, micro-interactions
-- **React Icons** — icon set (Feather icons)
+# 👤 Candidate Details
 
-## Features
+**Full Name:** Vikas Kumar
 
-- Fully responsive, mobile-first layout (5 breakpoints)
-- Reusable component library (Button, Card, Accordion, Lightbox, Badge…)
-- Animated counters, scroll reveals, testimonial carousel, mega-menu nav
-- Mobile drawer navigation with accordion sub-menus
-- Working on-site enquiry form (Contact page + homepage)
-- Native on-site gallery with keyboard-accessible lightbox
-- Accessible: semantic HTML, ARIA attributes, visible focus states,
-  `prefers-reduced-motion` support
-- SEO-friendly: semantic routes, meta tags, descriptive alt text on all imagery
+**Intern ID:** Not Provided
 
-## Getting Started
+**Email:** vikash76518@gmail.com
 
-### Prerequisites
-- Node.js 18+
-- npm 9+
+**GitHub Username:** vikaskumar098
 
-### Installation
+**GitHub Repository:**  
+https://github.com/vikaskumar098/DETTROIN-INT-Vikas-KIS-Redesign
+
+**Selected Website:**  
+https://kisaligarh.com/
+
+**Live Demo:**  
+https://dettroin-int-vikas-kis-redesign.vercel.app/
+
+---
+
+# 🚀 Technologies Used
+
+- React 19
+- Vite
+- Tailwind CSS
+- React Router DOM
+- Framer Motion
+- React Icons
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+# ✨ Key Improvements
+
+- Modern and clean user interface
+- Fully responsive design for Desktop, Tablet and Mobile
+- Improved navigation experience
+- Reusable React component architecture
+- Smooth page transitions using Framer Motion
+- Mobile navigation drawer
+- Interactive Gallery
+- FAQ Section
+- Contact & Enquiry Form UI
+- Better typography and spacing
+- Accessibility improvements
+- SEO-friendly page structure
+- Optimized project structure
+- Clean and maintainable codebase
+
+---
+
+# 📱 Features
+
+- Responsive Layout
+- Animated Hero Section
+- About Section
+- Academics Section
+- Admissions Page
+- Gallery
+- Contact Page
+- FAQ Section
+- Loading Screen
+- Reusable UI Components
+- Smooth Animations
+- React Router Navigation
+
+---
+
+# 📂 Project Structure
+
+```text
+src/
+│── assets/
+│── components/
+│   ├── layout/
+│   ├── sections/
+│   └── ui/
+│── data/
+│── hooks/
+│── pages/
+│── utils/
+│── App.jsx
+│── main.jsx
+└── index.css
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/vikaskumar098/DETTROIN-INT-Vikas-KIS-Redesign.git
+```
+
+Install dependencies
+
 ```bash
 npm install
 ```
 
-### Run locally
+Run locally
+
 ```bash
 npm run dev
 ```
-Visit `http://localhost:5173`
 
-### Build for production
+Build for production
+
 ```bash
 npm run build
-npm run preview   # preview the production build locally
 ```
 
-## Project Structure
+Preview production build
 
-```
-src/
-├── assets/              # images, static media
-├── components/
-│   ├── ui/               # Button, Card, Badge, Accordion, Lightbox, BackToTop…
-│   ├── layout/            # Navbar, Footer, MainLayout, PageHero, LoadingScreen
-│   └── sections/          # Hero, TrustBar, About, Academics, Gallery, FAQ…
-├── pages/                # Home, About, Academics, Gallery, Admissions, Contact, NotFound
-├── hooks/                # useScrollPosition, useMediaQuery, useCountUp
-├── utils/                # constants.js, navigation.js, cn.js
-├── data/                 # static content (testimonials, faculty, FAQs, events)
-├── App.jsx               # routing, page transitions, loading screen
-├── main.jsx              # React entry point
-└── index.css             # design tokens & base styles
+```bash
+npm run preview
 ```
 
-## Design System
+---
 
-Colors, type scale, spacing, shadows, and radii are all defined centrally in
-`tailwind.config.js`.
+# 🔮 Future Improvements
 
-- **Palette:** Deep navy (`#0A1626`) + warm gold (`#C9A24B`) + ivory (`#F7F5F0`)
-- **Type:** Fraunces (display/serif) + Inter (body/sans) + IBM Plex Mono (labels)
-- **Motion:** Framer Motion scroll reveals, staggered hero entrance, count-up
-  stats, page-transition fades — all respecting `prefers-reduced-motion`
+- Backend integration for enquiry form
+- CMS Integration
+- Dynamic News & Events
+- Student Portal
+- Multi-language Support
+- Performance Optimization
 
-## Notes on Imagery
+---
 
-This build uses styled placeholder blocks (`ImagePlaceholder.jsx`) in place of
-real campus photography, since licensed photos weren't available for this
-project. Swap in real `<img>` / `srcset` sources using the same aspect-ratio
-and rounding classes — no other markup changes are needed.
+# 📄 Assignment Information
 
-## Roadmap
+This project was developed as part of the **Dettroin Full Stack Developer Internship – Round 1 Website Redesign Challenge**.
 
-- Connect the enquiry form to a real backend/CRM endpoint
-- Swap placeholder imagery for real campus photography (WebP/AVIF, `srcset`)
-- Headless CMS integration for News/Events/Achievements
-- Multilingual support (Hindi/English toggle)
+The redesign focuses on improving:
 
-## Author
+- UI/UX
+- Responsiveness
+- Accessibility
+- Performance
+- Code Quality
+- Project Structure
+- User Experience
 
-Built as a frontend internship assignment — redesign of Krishna International
-School's website (Aligarh, U.P.).
+while preserving the purpose of the original website.
+
+---
+
+# 👨‍💻 Author
+
+**Vikas Kumar**
+
+B.Tech – Information Technology
+
+Email: vikash76518@gmail.com
+
+GitHub: https://github.com/vikaskumar098
+
+Live Demo: https://dettroin-int-vikas-kis-redesign.vercel.app/
